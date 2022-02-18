@@ -42,7 +42,7 @@
       class="bg-primary text-white"
     >
     <div class="q-py-md q-px-lg q-gutter-sm column items-center">
-    <q-btn  color="purple-9" label="NEW DISCUSSION" />
+    <q-btn  to="/SelectTopic" color="purple-9" label="NEW DISCUSSION" />
     </div>
 
       <q-list>

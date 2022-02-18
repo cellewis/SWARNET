@@ -7,7 +7,10 @@ const routes = [
       {path: '/Dashboard2', component: () => import('pages/Dashboard2.vue')},
       {path: '/Profile', component: () => import('pages/UserProfile.vue')},
       {path: '/TreeTable', component: () => import('pages/TreeTable.vue')},
-      { path: '/Directory', component: () => import('pages/Directory.vue') },
+      {path: '/Directory', component: () => import('pages/Directory.vue') },
+      {path: '/SelectTopic', component: () => import('pages/SelectTopic.vue')},
+      {path: '/CreatePost', component: () => import('pages/CreatePost.vue')},
+      {path: '/CreateTopic', component: () => import('pages/CreateTopic.vue')},
       {path: '/CardHeader', component: () => import('pages/CardHeader.vue')},
     ]
   },
